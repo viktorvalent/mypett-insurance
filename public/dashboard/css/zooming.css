@@ -1,0 +1,33 @@
+.container {
+    max-width: 600px;
+  }
+
+  section.header {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  section.content {
+    text-align: center;
+  }
+
+  .value-img {
+    display: block;
+    text-align: center;
+    margin: 2em 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  @media (min-width: 550px) {
+    .header {
+      margin-top: 10rem;
+    }
+  }
+
+  .button.button-primary {
+    background-color: #ce7338 !important;
+    border-color: #ce7338 !important;
+  }
